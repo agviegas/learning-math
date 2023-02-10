@@ -10,7 +10,7 @@ A **scalar** is a single number. **Vectors** are simply an arrays of numbers.
 There are two types of vectors: **row vectors** and **column vectors**.
 
 $$\vec v =\begin{bmatrix} 1 & 0 & 0 \end{bmatrix} ~~~~~~~~ \vec v= \begin{bmatrix} 1 \\ 0 \\ 0 \end{bmatrix}$$
-The numbers within a vector can be identified with subscript notation. We could use $\vec v_1$ to talk about the first element of the vector $\vec v$, but in computer graphics is more common to use the letters $x$, $y$, $z$ and $w$ (it's rare to go beyond 4D vectors). So the third element of $\vec v$ is $\vec v_z$.
+Vectors are expressed with a lowercase letter with an arrow on top. The numbers within a vector can be identified with subscript notation. We could use $\vec v_1$ to talk about the first element of the vector $\vec v$, but in computer graphics is more common to use the letters $x$, $y$, $z$ and $w$ (it's rare to go beyond 4D vectors). So the third element of $\vec v$ is $\vec v_z$.
 
 >The area of mathematics that studies vectors is called **linear algebra**. It uses vectors and matrices of $n$ dimensions are used to solve systems of $n$ linear equations and $n$ unkowns, without caring about about the physical significance of the numbers. This is not of our interests for graphics, where our focus is purely geometric.
 
