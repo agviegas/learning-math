@@ -1,7 +1,7 @@
 
 Matrices can be defined in 2 ways:
 
-### Mathematical definition
+# Mathematical definition
 
 A matrix is a rectangular grid of numbers. It has **rows** and **columns**. While a [[Introduction to vectors|vector]] is an array of **scalars**, a matrix is an array of **vectors**.
 
@@ -22,7 +22,7 @@ Matrix are represented with an uppercase letter. The numbers within a matrix can
 $$I_4= \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1  \end{bmatrix}$$
 >[[Introduction to vectors|Vectors]] can be seen as a 1-D matrix. A vector of $n$ dimensions can be either a 1 x $n$ matrix (**row vector**) or as a $n$ x 1 matrix (**column vector**). This distinction will have a huge impact when making operations between vectors and matrices.
 
-### Geometric definition
+# Geometric definition
 
 Matrices in 3D math are used primarily to define the relationship between 2 coordinate spaces. In simpler words, they represent a **[[Linear transformations|linear transformation]] of a coordinate space**.
 
@@ -34,7 +34,7 @@ $$kM = \begin{bmatrix} 0 & 0 & 1  \end{bmatrix} \begin{bmatrix} m_{11} & m_{12} 
 
 >Each row in the matrix contains the result of performing the transformation in that dimension. **Each row of the matrix is a basis vector that defines the new $i$, $j$ and $k$ respectively, forming a new coordinate system**. 
 
-We know that any vector can be expressed as a linear combination of the **basis vectors**:
+We know that any vector can be expressed as a linear combination of the **standard basis vectors**:
 
 $$\vec v = v_xi+v_yj+v_zk$$
 
@@ -60,6 +60,6 @@ This is a very powerful tool for two reasons:
 
 - It allows us to create new matrices that define transformations! All we need to know is how it transforms the basis vectors. 
 
-### Linear algebra applications
+# Linear algebra applications
 
 Matrices are used in **linear algebra** to solve system of ecuations, which can be useful in more advanced use cases: fluid, cloth, and hair simulations (and rendering); more robust procedural animation of characters; real-time global illumination; machine vision; gesture recognition; etc.

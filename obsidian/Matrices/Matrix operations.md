@@ -1,5 +1,5 @@
 
-### Matrix transposition
+# Matrix transposition
 
 The transpose of a matrix $M$ of dimension $ij$ is a matrix $M^T$ of dimension $ji$ where the columns and rows have been flipped. 
 
@@ -8,13 +8,13 @@ $$M^T= \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6  \\ 7 & 8 & 9  \end{bmatrix}^T = \
 - For any matrix: $(M^T)^T = M$
 - For any diagonal matrix: $D^T = D$
 
-### Matrix - scalar product
+# Matrix - scalar product
 
 The product of a matrix $M$ and a scalar $k$ results in a matrix of the same dimension where all elements have been multiplied by $k$.
 
 $$kM= k\begin{bmatrix} m_{11} & m_{12} & m_{13} \\ m_{21} & m_{22} & m_{23}  \\ m_{31} & m_{32} & m_{33}  \end{bmatrix} = \begin{bmatrix} km_{11} & km_{12} & km_{13} \\ km_{21} & km_{22} & km_{23}  \\ km_{31} & km_{32} & km_{33}  \end{bmatrix}$$
 
-### Matrix - matrix product
+# Matrix - matrix product
 
 Two matrices $A_{ij}$ and $B_{jk}$ can be multiplied only if the **number of columns** of $A$ is equal to the **number of rows** of $B$. It results in a new matrix of dimension $ik$.
 
@@ -40,7 +40,7 @@ $$AB= \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix} \begin{bm
 
 - The transpose of a product is the product of the tranpose in reverse order: $(AB)^T=B^TA^T$
 
-### Matrix - vector product
+# Matrix - vector product
 
 Multiplying a [[Introduction to vectors|vector]] and a matrix is the same as the matrix-matrix product if we consider vectors as 1 dimensional matrices. Because of the dimensional restrictions, here are all the possible scenarios. This works the same regardless of the number of dimensions of the vector - matrix (within the dimensional restrictions).
 

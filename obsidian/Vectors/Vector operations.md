@@ -1,5 +1,5 @@
 
-### Vector - scalar product
+# Vector - scalar product
 
 $$a \vec v = \vec v a  = a \begin{bmatrix} v_1 \\ v_2 \\ v_3 \end{bmatrix} = \begin{bmatrix} a ~ v_1 \\ a ~ v_2 \\ a ~ v_3 \end{bmatrix} $$
 
@@ -14,7 +14,7 @@ ___
 Vectors can't be the denominator, as that operation doesn't make sense. But dividing a vector by a scalar is exactly the same as multiplication if we consider the following:
 
 $$\frac {\vec v}{a} = \frac {1}{a} \vec v $$
-### Vector - vector sum
+# Vector - vector sum
 
 The sum of two vectors results in a new vector where each component is the sum of the previous respective components. Both vectors should have the same **dimension**.
 
@@ -26,7 +26,7 @@ The geometric meaning of this is applying the second vector displacement to the 
 The subtraction of two vectors is identical if we consider the following formula. The sum is **conmutative**, but the subtraction is not. In fact, $\vec a - \vec b$ will result in a vector that has the same **magnitude** and opposite **direction** as the result of $\vec b - \vec a$.
 $$\vec a - \vec b = \vec a + (-1) \cdot \vec b $$
 
-### 2 points to vector
+# 2 points to vector
 
 A vector can be defined from two points with the following formula:
 
@@ -37,9 +37,9 @@ $$\vec {PQ} = Q - P = \begin{bmatrix} q_1 - p_1 \\ q_2 - p_2 \\ q_3 - p_3 \end{b
 
 >The opposite operation $P - Q$ would result in a vector with the opposite direction and same module.
 
-### Magnitude of a vector
+# Magnitude of a vector
 
-The magnitude (length) of a vector of $n$ dimensions can be easily computed using the [[Trigonometry basics#Trigonometric identities|pithagorean theorem]]:
+The magnitude (length) of a vector of $n$ dimensions can be easily computed using the [[Trigonometry#Trigonometric identities|pithagorean theorem]]:
 
 $$||v|| = \sqrt{\sum^n_{i=1}v_i^2}$$
 So, for instance, for a 3 dimensional vector:
@@ -51,7 +51,7 @@ $$||v|| = \sqrt{v_1^2 + v_2^2 + v_3^2}$$
 >This can be used to compute the distance between two points in space. We can just create a vector between the two points and compute its **magnitude**.
 
 
-### Vector normalization
+# Vector normalization
 
 Normalizing a vectors means computing a **unit vector** with the same direction. A **unit vector** is a vector whose magnitude is 1. They are very useful because they don't contain **magnitude** information: just **direction**. 
 
@@ -63,7 +63,7 @@ $$\hat{v} = \frac{\vec v}{||v||}  $$
 >The zero vector can't be normalized because it would result in a division by zero.
 
 
-### Vector dot product
+# Vector dot product
 
 The **dot product** (or **inner product**) of two vectors is the sum of the product of their respective components. Both vectors must have the same dimensions, the operation is **conmutative**, **distributive** and it results in a scalar.
 
@@ -105,7 +105,7 @@ $$\theta = acos(\frac{\vec a \cdot \vec b}{||a||~~||b||}) = acos(\hat{a} \cdot \
 
 $$\vec {ab} = ||a||cos(\theta) = \frac{\vec a \cdot \vec b}{||b||}$$
 
-### Vector cross product
+# Vector cross product
 
 The **cross product** could be seen, in some way, as the opposite to the **dot product**. The **dot product** results in a scalar, is **conmutative** and gives information of _how alike_ the directions of these vectors are. On the other hand, the **cross product** results in a vector, is **anticonmutative** and gives information of _how different_ the directions of these vectors are.
 

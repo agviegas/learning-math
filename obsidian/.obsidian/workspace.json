@@ -4,40 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "37c1d19c58141799",
+        "id": "e4e5eb26604ea85b",
         "type": "tabs",
         "children": [
           {
-            "id": "518e0fdf3403c27e",
+            "id": "12808a664406821a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matrices/Introduction to matrices.md",
+                "file": "First steps/Numbers.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "854820c0db8f87b9",
+            "id": "3b2563925238e526",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matrices/Linear transformations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "767493e24260309e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Matrices/Affine transformations.md",
+                "file": "First steps/Basics/Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matrices/Linear transformations.md",
+                "file": "First steps/Basics/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matrices/Linear transformations.md",
+                "file": "First steps/Basics/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,16 +138,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matrices/Linear transformations.md"
+                "file": "First steps/Basics/Functions.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "854820c0db8f87b9",
+  "active": "3b2563925238e526",
   "lastOpenFiles": [
-    "Matrices/Affine transformations.md",
+    "First steps/Basics/Equations.md",
+    "First steps/Basics/Polynomials.md",
+    "First steps/Cartesian space.md",
+    "First steps/Notation.md",
+    "First steps/Basics/Algebra concepts.md",
+    "First steps/Basics/Functions.md",
     "Matrices/Introduction to matrices.md",
-    "Matrices/Linear transformations.md",
-    "Matrices/Matrix operations.md",
-    "Vectors/Vector operations.md",
-    "Index.md",
-    "Pasted image 20230209173625.png.md",
-    "References.md",
-    "images/Pasted image 20230209173625.png",
-    "images/Pasted image 20230209173308.png"
+    "First steps/Numbers.md",
+    "First steps/Basics/Arithmetic operations.md",
+    "First steps/Basics/Arithmetic concepts.md"
   ]
 }

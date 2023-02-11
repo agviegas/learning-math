@@ -1,7 +1,7 @@
 
 Vectors can be defined in two ways:
 
-### Mathematical definition
+# Mathematical definition
 
 A **scalar** is a single number. **Vectors** are simply an arrays of numbers. 
 
@@ -15,7 +15,7 @@ Vectors are expressed with a lowercase letter with an arrow on top. The numbers 
 >The area of mathematics that studies vectors is called **linear algebra**. It uses vectors and matrices of $n$ dimensions are used to solve systems of $n$ linear equations and $n$ unkowns, without caring about about the physical significance of the numbers. This is not of our interests for graphics, where our focus is purely geometric.
 
 
-### Geometric definition
+# Geometric definition
 
 A vector is a line segment in space. It has 2 properties:
 

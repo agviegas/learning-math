@@ -7,7 +7,7 @@ There are two units to measure angles:
 - **degrees** : 1 revolution = 360º.
 - **radians**: 1 revolution = $2\pi$ radians.
 
-#### Trigonometric functions
+## Trigonometric functions
 
 A circle with radius = 1 is called **unit circle**. The coordinates $(x,y)$ of any point in a unit circle are so useful that they have a name: **cosine** and **sine**, and they are related to the angle $\theta$  that they form with the origin.
 
@@ -21,7 +21,7 @@ The inverse of the **sine**, **cosine** and **tangent** are called respectively 
 
 $$csc(\theta) = \frac r y ~~~~~~~~~ sec(\theta) = \frac r x ~~~~~~~~~ tan(\theta) = \frac x y$$
 
-#### Trigonometric identities
+## Trigonometric identities
 
 The trigonometric funtions have a number of useful relationships called **trigonometric identities**. The most intuitive are the ones based on symmetry:
 
