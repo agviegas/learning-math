@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cfab332b2da1669f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Curves/Bezier curves.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First steps/Basics/Functions.md",
+                "file": "Curves/Bezier curves.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First steps/Basics/Functions.md",
+                "file": "Curves/Bezier curves.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First steps/Basics/Functions.md"
+                "file": "Curves/Bezier curves.md"
               }
             }
           }
@@ -159,14 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b2563925238e526",
+  "active": "f5bc0701ac88723e",
   "lastOpenFiles": [
+    "First steps/Basics/Functions.md",
     "First steps/Basics/Equations.md",
     "First steps/Basics/Polynomials.md",
     "First steps/Cartesian space.md",
     "First steps/Notation.md",
     "First steps/Basics/Algebra concepts.md",
-    "First steps/Basics/Functions.md",
     "Matrices/Introduction to matrices.md",
     "First steps/Numbers.md",
     "First steps/Basics/Arithmetic operations.md",
