@@ -7,7 +7,7 @@ Knowing that [[Introduction to matrices#Geometric definition|the rows of a trans
 
 Rotations in 2D can only happen around a point, and the only parameter needed is the angle $\theta$. Generally, counter-clockwise is considered positive rotation. The basis vectors have a length of 1, so we can use using [[Trigonometry|simple trignonometry]] to define the positions of $p'$ and $q'$ in a unit circle depending on $\theta$.
 
-$$M= \begin{bmatrix} p \\ q\end{bmatrix} = \begin{bmatrix} -sin(\theta) & cos(\theta) \\ cos(\theta) &  sin(\theta)\end{bmatrix}$$
+$$M= \begin{bmatrix} p \\ q\end{bmatrix} = \begin{bmatrix} cos(\theta) & sin(\theta) \\ -sin(\theta) &  cos(\theta)\end{bmatrix}$$
 
 ![[Pasted image 20230210151327.png]]
 

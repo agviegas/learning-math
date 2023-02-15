@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First steps/Numbers.md",
+                "file": "Matrices/Linear transformations.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Curves/Bezier curves.md",
+                "file": "Matrices/Linear transformations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Curves/Bezier curves.md",
+                "file": "Matrices/Linear transformations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Curves/Bezier curves.md"
+                "file": "Matrices/Linear transformations.md"
               }
             }
           }
@@ -171,17 +170,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f5bc0701ac88723e",
+  "active": "12808a664406821a",
   "lastOpenFiles": [
+    "Vectors/Vector operations.md",
+    "Vectors/Introduction to vectors.md",
+    "First steps/Numbers.md",
     "First steps/Basics/Functions.md",
     "First steps/Basics/Equations.md",
     "First steps/Basics/Polynomials.md",
     "First steps/Cartesian space.md",
     "First steps/Notation.md",
     "First steps/Basics/Algebra concepts.md",
-    "Matrices/Introduction to matrices.md",
-    "First steps/Numbers.md",
-    "First steps/Basics/Arithmetic operations.md",
-    "First steps/Basics/Arithmetic concepts.md"
+    "Matrices/Introduction to matrices.md"
   ]
 }
