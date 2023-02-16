@@ -80,7 +80,7 @@ $$\vec a \cdot \vec b = ||a||~||b||~cos(\theta)$$
 Why? It's actually quite easy. Let's see the easiest possible example, where b is in the $x$ axis (which means that $b_x = ||b||$):
 
 $$\vec a = \begin{bmatrix} a_x \\ a_y \end{bmatrix} ~~~~~~~~~ \vec b = \begin{bmatrix} b_x \\ 0 \end{bmatrix}$$
-$$\vec a \cdot \vec b = a_x \cdot b_x + b_y \cdot 0 = a_x \cdot b_x = ||a||cos(\theta) \cdot b = ||a||~||b||~cos(\theta) $$
+$$\vec a \cdot \vec b = a_x \cdot b_x + b_y \cdot 0 = a_x \cdot b_x = ||a||cos(\theta) \cdot b_x = ||a||~||b||~cos(\theta) $$
 
 
 

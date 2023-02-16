@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e4e5eb26604ea85b",
+        "id": "5aad3777e17411eb",
         "type": "tabs",
         "children": [
           {
-            "id": "12808a664406821a",
+            "id": "d04eb3af26227e3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matrices/Linear transformations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b2563925238e526",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "First steps/Basics/Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cfab332b2da1669f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curves/Bezier curves.md",
+                "file": "Matrices/Determinant.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matrices/Linear transformations.md",
+                "file": "Matrices/Determinant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matrices/Linear transformations.md",
+                "file": "Matrices/Determinant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matrices/Linear transformations.md"
+                "file": "Matrices/Determinant.md"
               }
             }
           }
@@ -158,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,17 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "12808a664406821a",
+  "active": "d04eb3af26227e3a",
   "lastOpenFiles": [
-    "Vectors/Vector operations.md",
-    "Vectors/Introduction to vectors.md",
-    "First steps/Numbers.md",
-    "First steps/Basics/Functions.md",
-    "First steps/Basics/Equations.md",
-    "First steps/Basics/Polynomials.md",
-    "First steps/Cartesian space.md",
-    "First steps/Notation.md",
-    "First steps/Basics/Algebra concepts.md",
-    "Matrices/Introduction to matrices.md"
+    "Matrices/Homogeneus matrices.md",
+    "Matrices/Determinant.md",
+    "Matrices/Inverse.md",
+    "Matrices/Perspective projection.md",
+    "Matrices/Orthogonal matrices.md",
+    "Matrices/Matrix operations.md",
+    "Matrices/Types of transformation.md",
+    "Matrices/Linear transformations.md",
+    "Matrices/Introduction to matrices.md",
+    "Matrices/Affine transformations.md"
   ]
 }

@@ -77,3 +77,4 @@ Other interesting facts about the vector-matrix operation:
 
 - The resulting vector is always a **linear combination** of the rows or columns of the matrix.
 ___
+
