@@ -77,7 +77,7 @@ If we reflect it again (even if it's about a different axis or plane), the resul
 
 ![[Pasted image 20230216002807.png]]
 
-Shearing or Skewing is an operation that "skews" the coordinate space, streching it non uniformly. Angles are not preserved, but areas and volumes are. This operation is not very common.
+Shearing or Skewing is an operation that "skews" the coordinate space, streching it non uniformly. Angles are not preserved, but areas and volumes are. This operation is not very common by itself, although it's smartly used to make [[Affine transformations#4x4 translation matrices|translations]].
 
 The basic idea is to add a multiple of one coordinate to the other. The shearing in 2D are the following, where $s$ is the shear factor in that coordinate:
 

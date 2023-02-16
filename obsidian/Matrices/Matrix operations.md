@@ -68,7 +68,9 @@ This makes sense, because in the end, the **column vector** is the transpose of 
 
 >For **row vectors**, sequence of transformation matrices are applied from left to right ($\vec v ABC$) while in **column vectors** the transformation sequence needs to be from right to left ($CBA\vec v$). 
 
-Whenever we are using a graphics API or reading a book or documentation, we should keep this in mind, as some of them use **row vectors** and others use **column vectors**. For instance, **DirectX** and **WebGL** use **row vectors**, while **openGL** (and almost any scientific publication) use **column vectors**. 
+Whenever we are using a graphics API or reading a book or documentation, we should keep this in mind, as some of them use **row vectors** and others use **column vectors**. For instance, **DirectX** use **row vectors**, while **openGL** (and almost any scientific publication) use **column vectors**. 
+
+>[Here](https://webgl2fundamentals.org/webgl/lessons/webgl-matrix-vs-math.html) is an interesting article talking about this confusing topic in WebGL. We just need to keep this in mind to know how to perform the operations: regardless of the criteria used, the result should be the same.
 
 ___
 Other interesting facts about the vector-matrix operation:

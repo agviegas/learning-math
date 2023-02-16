@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matrices/Determinant.md",
+                "file": "Matrices/Introduction to matrices.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matrices/Determinant.md",
+                "file": "Matrices/Introduction to matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matrices/Determinant.md",
+                "file": "Matrices/Introduction to matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matrices/Determinant.md"
+                "file": "Matrices/Introduction to matrices.md"
               }
             }
           }
@@ -149,15 +149,15 @@
   },
   "active": "d04eb3af26227e3a",
   "lastOpenFiles": [
-    "Matrices/Homogeneus matrices.md",
-    "Matrices/Determinant.md",
-    "Matrices/Inverse.md",
-    "Matrices/Perspective projection.md",
-    "Matrices/Orthogonal matrices.md",
-    "Matrices/Matrix operations.md",
-    "Matrices/Types of transformation.md",
+    "Matrices/Homogeneus space.md",
+    "Matrices/Affine transformations.md",
     "Matrices/Linear transformations.md",
+    "Matrices/Inverse.md",
     "Matrices/Introduction to matrices.md",
-    "Matrices/Affine transformations.md"
+    "Matrices/Determinant.md",
+    "Matrices/Concatenation.md",
+    "Matrices/Matrix operations.md",
+    "Matrices/Perspective projection.md",
+    "Matrices/Orthogonal matrices.md"
   ]
 }
