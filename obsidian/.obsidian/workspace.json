@@ -163,6 +163,7 @@
   "active": "ee75a9b8247b0897",
   "lastOpenFiles": [
     "Polar coordinates/Introduction to polar coordinates.md",
+    "Polar coordinates/3D polar space.md",
     "Matrices/Linear transformations.md",
     "Vectors/Introduction to vectors.md",
     "Matrices/Matrix operations.md",
@@ -170,7 +171,6 @@
     "Matrices/Determinant.md",
     "Matrices/Homogeneus matrices.md",
     "Matrices/Inverse.md",
-    "Matrices/Perspective projection.md",
-    "Matrices/Orthogonal matrices.md"
+    "Matrices/Perspective projection.md"
   ]
 }
