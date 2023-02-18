@@ -1,0 +1,1 @@
+Euler angles consists of representing an orientation as three rotations about three mutually perpendicular axis. Any axis and any order of rotations will work, but the convention is the **heading-pitch-bank** convention. 

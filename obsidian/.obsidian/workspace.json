@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a91eb8c02c483332",
+        "id": "47c5804e85412bcb",
         "type": "tabs",
         "children": [
           {
-            "id": "2dbd40415edef647",
+            "id": "4847b420860dd82c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Polar coordinates/Introduction to polar coordinates.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee75a9b8247b0897",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Polar coordinates/3D polar space.md",
+                "file": "3D rotations/Euler angles.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polar coordinates/3D polar space.md",
+                "file": "3D rotations/Euler angles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polar coordinates/3D polar space.md",
+                "file": "3D rotations/Euler angles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polar coordinates/3D polar space.md"
+                "file": "3D rotations/Euler angles.md"
               }
             }
           }
@@ -160,17 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee75a9b8247b0897",
+  "active": "4847b420860dd82c",
   "lastOpenFiles": [
+    "3D rotations/Introduction to 3D rotations.md",
+    "3D rotations/Matrix orientation.md",
+    "3D rotations/Quaternions.md",
+    "3D rotations/Axis-angle and exponential map.md",
+    "3D rotations/Euler angles.md",
     "Polar coordinates/Introduction to polar coordinates.md",
     "Polar coordinates/3D polar space.md",
+    "First steps/Basics/Sets.md",
     "Matrices/Linear transformations.md",
-    "Vectors/Introduction to vectors.md",
-    "Matrices/Matrix operations.md",
-    "Matrices/Homogeneus space.md",
-    "Matrices/Determinant.md",
-    "Matrices/Homogeneus matrices.md",
-    "Matrices/Inverse.md",
-    "Matrices/Perspective projection.md"
+    "Vectors/Introduction to vectors.md"
   ]
 }
