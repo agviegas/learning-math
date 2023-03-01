@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "47c5804e85412bcb",
+        "id": "28d9a04da242d537",
         "type": "tabs",
         "children": [
           {
-            "id": "4847b420860dd82c",
+            "id": "4d1617c588b4cb53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3D rotations/Euler angles.md",
+                "file": "3D rotations/Quaternions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3D rotations/Euler angles.md",
+                "file": "3D rotations/Quaternions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3D rotations/Euler angles.md",
+                "file": "3D rotations/Quaternions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3D rotations/Euler angles.md"
+                "file": "3D rotations/Quaternions.md"
               }
             }
           }
@@ -147,17 +147,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4847b420860dd82c",
+  "active": "4d1617c588b4cb53",
   "lastOpenFiles": [
-    "3D rotations/Introduction to 3D rotations.md",
-    "3D rotations/Matrix orientation.md",
+    "First steps/Basics/Trigonometry.md",
     "3D rotations/Quaternions.md",
-    "3D rotations/Axis-angle and exponential map.md",
+    "Vectors/Vector operations.md",
+    "Matrices/Matrix operations.md",
     "3D rotations/Euler angles.md",
+    "3D rotations/Axis-angle form and exponential maps.md",
+    "3D rotations/Introduction to 3D rotations.md",
+    "Matrices/Perspective projection.md",
+    "Matrices/Homogeneus space.md",
+    "Matrices/Orthogonal matrices.md",
+    "Matrices/Determinant.md",
+    "Matrices/Affine transformations.md",
+    "Matrices/Concatenation.md",
+    "Matrices/Introduction to matrices.md",
+    "Matrices/Inverse.md",
+    "Matrices/Linear transformations.md",
+    "images/Pasted image 20230301001827.png",
     "Polar coordinates/Introduction to polar coordinates.md",
     "Polar coordinates/3D polar space.md",
-    "First steps/Basics/Sets.md",
-    "Matrices/Linear transformations.md",
-    "Vectors/Introduction to vectors.md"
+    "images/Pasted image 20230228223748.png",
+    "Vectors/Introduction to vectors.md",
+    "First steps/Numbers.md",
+    "First steps/Notation.md",
+    "First steps/Cartesian space.md",
+    "Curves/Bezier curves.md",
+    "3D rotations/Matrix orientation.md",
+    "First steps/Basics/Sets.md"
   ]
 }

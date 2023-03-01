@@ -36,7 +36,7 @@ When we transpose the matrix we are making these vectors the columns. That means
 
 $r_1 \cdot r_1 = 1$               $r_1 \cdot r_2 = 0$               $r_1 \cdot r_3 = 0$
 $r_2 \cdot r_1 = 0$               $r_2 \cdot r_2 = 1$               $r_2 \cdot r_3 = 0$
-$r_3 \cdot r_1 = 1$               $r_3 \cdot r_2 = 0$               $r_3 \cdot r_3 = 1$
+$r_3 \cdot r_1 = 0$               $r_3 \cdot r_2 = 0$               $r_3 \cdot r_3 = 1$
 
 This gives us very valuable information:
 
