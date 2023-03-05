@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "28d9a04da242d537",
+        "id": "3898097ef3f1a530",
         "type": "tabs",
         "children": [
           {
-            "id": "4d1617c588b4cb53",
+            "id": "79d3da3e1e1ff950",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3D rotations/Quaternions.md",
+                "file": "Geometric primitives/Lines and rays.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3D rotations/Quaternions.md",
+                "file": "Geometric primitives/Lines and rays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3D rotations/Quaternions.md",
+                "file": "Geometric primitives/Lines and rays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3D rotations/Quaternions.md"
+                "file": "Geometric primitives/Lines and rays.md"
               }
             }
           }
@@ -147,34 +147,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4d1617c588b4cb53",
+  "active": "79d3da3e1e1ff950",
   "lastOpenFiles": [
-    "First steps/Basics/Trigonometry.md",
-    "3D rotations/Quaternions.md",
-    "Vectors/Vector operations.md",
+    "images/Pasted image 20230303220546.png",
+    "Geometric primitives/Representation techniques.md",
+    "Geometric primitives/Lines and rays.md",
+    "images/Pasted image 20230303214449.png",
     "Matrices/Matrix operations.md",
-    "3D rotations/Euler angles.md",
-    "3D rotations/Axis-angle form and exponential maps.md",
-    "3D rotations/Introduction to 3D rotations.md",
-    "Matrices/Perspective projection.md",
-    "Matrices/Homogeneus space.md",
-    "Matrices/Orthogonal matrices.md",
-    "Matrices/Determinant.md",
     "Matrices/Affine transformations.md",
-    "Matrices/Concatenation.md",
-    "Matrices/Introduction to matrices.md",
-    "Matrices/Inverse.md",
-    "Matrices/Linear transformations.md",
-    "images/Pasted image 20230301001827.png",
-    "Polar coordinates/Introduction to polar coordinates.md",
-    "Polar coordinates/3D polar space.md",
-    "images/Pasted image 20230228223748.png",
-    "Vectors/Introduction to vectors.md",
-    "First steps/Numbers.md",
-    "First steps/Notation.md",
+    "3D rotations/Conversions/Euler - Quaternion conversions.md",
+    "Geometric primitives",
+    "Untitled",
+    "3D rotations/Conversions/Euler - Matrix conversions.md",
+    "3D rotations/Conversions/Quaternion - Matrix conversions.md",
+    "3D rotations/Quaternions/Quaternions.md",
+    "3D rotations/Quaternions/Quaternions basic operations.md",
+    "3D rotations/Euler angles.md",
+    "3D rotations/Quaternions/Quaternion exponentiation.md",
+    "3D rotations/Quaternions/Quaternion interpolation.md",
+    "3D rotations/Conversions",
     "First steps/Cartesian space.md",
-    "Curves/Bezier curves.md",
-    "3D rotations/Matrix orientation.md",
-    "First steps/Basics/Sets.md"
+    "3D rotations/Introduction to 3D rotations.md",
+    "Matrices/Linear transformations.md",
+    "Matrices/Introduction to matrices.md",
+    "Matrices/Determinant.md",
+    "Matrices/Homogeneus space.md",
+    "3D rotations/Quaternions/Quaternions as complex numbers.md",
+    "Matrices/Inverse.md",
+    "Matrices/Orthogonal matrices.md",
+    "First steps/Basics/Trigonometry.md",
+    "First steps/Basics/Arithmetic operations.md",
+    "First steps/Basics/Arithmetic concepts.md",
+    "First steps/Basics/Algebra concepts.md",
+    "images/Pasted image 20230303005421.png",
+    "images/Pasted image 20230303004804.png",
+    "3D rotations/Quaternions",
+    "images/Pasted image 20230301001827.png",
+    "images/Pasted image 20230228223748.png"
   ]
 }

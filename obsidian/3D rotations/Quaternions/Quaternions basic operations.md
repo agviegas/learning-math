@@ -1,53 +1,3 @@
-A quaternion expresses a rotation as a scalar $w$ and a 3D vector $v$. It can be expressed in multiple forms. They all mean the same thing. Unlike vectors, there is no distinction between "row" and "column" quaternions. The difference is just aesthetic. 
-
-$$\begin{bmatrix} w & v  \end{bmatrix} ~~~~~~~~~~ \begin{bmatrix} w & \begin{pmatrix} x & y & z  \end{pmatrix}  \end{bmatrix} ~~~~~~~~~~ \begin{bmatrix} w \\ \begin{pmatrix} x \\ y \\ z  \end{pmatrix}  \end{bmatrix}$$
-
-
-The quaternions, like the [[Axis-angle form and exponential maps|exponential maps]], represent a rotation simply with an angle $\theta$ and an axis $\hat n$. But they aren't stored in the quaternions directly; instead, they are encoded in a way that looks weird but turns out to be very practical:
-
-$$\begin{bmatrix} w & v  \end{bmatrix} = \begin{bmatrix} \cos(\theta/2) & \sin(\theta/2)\hat n  \end{bmatrix}$$
-$$\begin{bmatrix} w & \begin{pmatrix} x & y & z  \end{pmatrix}  \end{bmatrix} = \begin{bmatrix} \cos(\theta/2) & \sin(\theta/2)\hat n_x & \sin(\theta/2)\hat n_y & \sin(\theta/2)\hat n_z  \end{bmatrix}$$
-
-So $w$ is related to $\theta$ and $v$ is related to $\hat n$, but they are not the same thing. 
-
-# Negation
-
-There are several operations we can do with quaternions. The most basic one is **negating** a quaternion:
-$$-q = \begin{bmatrix} -w & -v  \end{bmatrix} = \begin{bmatrix} -w & \begin{pmatrix} -x & -y & -z  \end{pmatrix}  \end{bmatrix}$$
-
-Surprisingly, this doesn't affect the angular displacement. In other words, the quaternions $q$ and $-q$ describe the same rotation. Thus, each 3D rotation has two distinct representations: $q$ and $-q$.
-
->This is easy to understand. If we add 360º to $\theta$, the result of the rotation is the same, but all the components of $q$ would be negated. 
-
-
-# Identity
-
-An **identity quaternion** is a quaternion that doesn't apply any rotation. There are two of them:
-
-$$\begin{bmatrix} 1 & \vec 0  \end{bmatrix} ~~~~~~~~~~ \begin{bmatrix} -1 & \vec 0  \end{bmatrix}$$
-
-- When $\theta$ is an even multiple of 360º, then $cos(\theta)=1$ and we have the first form.
-- When $\theta$ is an odd multiple of 360º, then $cos(\theta)=-1$ and we have the second form.
-- In both cases $sin(\theta)=0$, so the value of $\hat n$ is irrelevant.
-
->This makes sense: if $\theta$ is a whole revolution in any axis, the end result is the same as the start, so there is no real change made to the orientation.
-
-Nevertheless, algebraically there's only one true identity quaternion: $\begin{bmatrix} 1 & \vec 0  \end{bmatrix}$. The reason is that the product of any quaternion $q$ by the identity quaternion must result in $q$. If we multiply $q$ by $\begin{bmatrix} -1 & \vec 0  \end{bmatrix}$, the result is $-q$. Above we saw that $q$ and $-q$ represent the same angular displacement, but they are not mathematically the same. This is just a matter of definitions.
-
-# Magnitude
-
-We can compute the magnitude of a quaternion just like we do for [[Vector operations#Magnitude of a vector|vectors]] or imaginary numbers:
-
-$$||q|| = \sqrt{w^2+||v||^2} = \sqrt{w^2+x^2+y^2+z^2}$$
-If we substitute by $\theta$ and $\hat n$, we can make an amazing discovery:
-
-$$||q|| = \sqrt{\cos^2(\theta/2)+(\sin(\theta/2)||\hat n||)^2}$$
-We know that $\hat n$ is a unit vector, so it's magnitude is always one. Therefore, applying the most basic [[Trigonometry#Trigonometric identities|trigonometric identity]]:
-
-$$||q|| = \sqrt{\cos^2(\theta/2)+\sin^2(\theta/2)} = \sqrt 1 = 1$$
-
->We only use quaternions to represent orientations, and in this case all quaternions are **normal quaternions** (magnitude = 1).
-
 # Conjugate and inverse
 
 The **conjugate** of a quaternion $q$ is denoted as $q^*$ and is the result of negating $v$. This has to do with the interpretation of the quaternion as a complex number, explained far below.
@@ -68,7 +18,7 @@ ___
 
 # Multiplication
 
-Quaternions can be multiplied. This is sometimes called **Hamilton product**. The result is another quaternion:
+Quaternions can be multiplied. Multiplying a quaternion A by another B means **applying the rotation of A to B**. This is sometimes called Hamilton product. The result is another quaternion that contains the resulting rotation.
 
 $$q_1~q_2 = \begin{bmatrix} w_1 & \begin{pmatrix} x_1 & y_1 & z_1  \end{pmatrix}  \end{bmatrix} \begin{bmatrix} w_2 & \begin{pmatrix} x_2 & y_2 & z_2  \end{pmatrix}  \end{bmatrix}$$
 $$=\begin{bmatrix} w_1w_2 - x_1x_2 - y_1y_2 - z_1z_2 \\ \begin{pmatrix} w_1x_2 + x_1w_2 + y_1z_2 - z_1y_2 \\ w_1y_2 + y_1w_2 + z_1x_2 - x_1z_2 \\ w_1z_2 + z_1w_2 + x_1y_2 - y_1x_2  \end{pmatrix}  \end{bmatrix}$$
@@ -91,7 +41,7 @@ $$p' = b(a~p~a^{-1})b^{-1} = (ba)p(ba)^-1 $$
 
 # Difference
 
-Knowing the quaternion multiplication and difference we can easily define the difference. The difference between two quaternions $a$ and $b$ is the rotation $d$ that rotates from $a$ to $b$. In other words, the rotation that brings from one orientation to another (remember that quaternion multiplication is from right to left):
+Knowing the quaternion multiplication and inverse we can easily define the difference. The difference between two quaternions $a$ and $b$ is the rotation $d$ that rotates from $a$ to $b$. In other words, the rotation that brings from one orientation to another (remember that quaternion multiplication is from right to left):
 
 $$da = b$$
 $$d = ba^{-1}$$
@@ -136,11 +86,3 @@ $$\exp(\log(q)) = q$$
 Quaternions can also be multiplied by a scalar like this. This usually doesn't result in a unit quaternion, so this operation is not useful for using quaternions for rotations.
 
 $$k~q = k\begin{bmatrix} w & v  \end{bmatrix}  = \begin{bmatrix} kw & kv  \end{bmatrix} $$
-
-# Quaternion exponentiation
-
-We can raise quaternions to a scalar power. This is denoted as $q^t$ and shouldn't be confused with the $\exp$ function (which only takes one argument, not 2).
-
-The quaternion exponentiation means the same as for real numbers. For any scalar, $a^0 = 1$ and $a^1 = a$. As the exponent $t$ varies from 0 to 1, $a^t$ varies from 0 to $a$. The same thing happens with quaternion exponentiation: as $t$ varies from 0 to 1, $q^t$ varies from $[1, 0]$ (unit quaternion) to $q$.
-
-Quaternion exponentition is useful because it allows us to get a "fraction" of a rotation. For example, if we wanted to get one third of the rotation $q$, we could simply use $q^{1/3}$.
