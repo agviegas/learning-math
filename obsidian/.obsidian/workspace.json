@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3898097ef3f1a530",
+        "id": "7748f9112512c87e",
         "type": "tabs",
         "children": [
           {
-            "id": "bb6942af8b2b4114",
+            "id": "2856b682b75f2972",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geometric primitives/Bounding boxes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc564518976dbe5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Geometric primitives/Bounding boxes.md",
+                "file": "Geometric primitives/Planes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Geometric primitives/Bounding boxes.md",
+                "file": "Geometric primitives/Planes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Geometric primitives/Bounding boxes.md",
+                "file": "Geometric primitives/Planes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Geometric primitives/Bounding boxes.md"
+                "file": "Geometric primitives/Planes.md"
               }
             }
           }
@@ -160,13 +147,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc564518976dbe5e",
+  "active": "2856b682b75f2972",
   "lastOpenFiles": [
+    "images/Pasted image 20230314005125.png",
+    "images/Pasted image 20230314000853.png",
+    "Geometric primitives/Lines and rays.md",
     "Geometric primitives/Planes.md",
     "Geometric primitives/Bounding boxes.md",
-    "Matrices/Matrix operations.md",
-    "Geometric primitives/Lines and rays.md",
     "Geometric primitives/Spheres and circles.md",
+    "Geometric primitives/Untitled.md",
+    "Matrices/Matrix operations.md",
     "images/Pasted image 20230308025243.png",
     "images/Pasted image 20230308022359.png",
     "References.md",
@@ -195,12 +185,9 @@
     "Matrices/Homogeneus space.md",
     "3D rotations/Quaternions/Quaternions as complex numbers.md",
     "Matrices/Inverse.md",
-    "Matrices/Orthogonal matrices.md",
-    "First steps/Basics/Trigonometry.md",
     "images/Pasted image 20230303005421.png",
     "images/Pasted image 20230303004804.png",
     "3D rotations/Quaternions",
-    "images/Pasted image 20230301001827.png",
-    "images/Pasted image 20230228223748.png"
+    "images/Pasted image 20230301001827.png"
   ]
 }
